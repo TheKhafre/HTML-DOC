@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Input fields</title>
+        <style>
+            .parent {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 40px 40px;
+                border-width: 2px;
+                border-color: lightgray;
+            }
+
+            .text-area {
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 20px;
+            }
+
+            input {
+                width: 360px;
+                height: 48px;
+                margin-top: 16px;
+                border-width: 7px;
+                border: solid;
+                border-color: lightgray;
+                font-size: 20px;
+                padding-left: 8px;
+                border-radius: 8px;
+            }
+
+            button {
+                width: 362px;
+                border: none;
+                padding: 12px 8px;
+                font-size: 32px;
+                background-color: blue;
+                color: white;
+                border-radius: 8px;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="text-area">
+                <input type="text" placeholder="Type Email Here">
+                <input type="password" placeholder="Enter Password Here">
+            </div>
+            <a href="#">
+                <button>Log In</button>
+            </a>
+        </div>
+    </body>
+</html>
